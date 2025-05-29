@@ -410,7 +410,7 @@ void print_board(const int N, struct Cell **board) {
                     printf("\033[33m#\033[0m ");
             }
             else
-                printf("\033[41m \033[0m ");
+                printf("\033[41mX\033[0m ");
         }
         printf("\n");
     }
